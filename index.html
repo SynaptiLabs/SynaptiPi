@@ -1,11 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>SynaptiPi</title>
+  <title>SynaptiPi | Building the Future with Pi</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #12002b, #220055);
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    .logo {
+      width: 220px;
+      max-width: 80%;
+      height: auto;
+      margin-bottom: 30px;
+      /* Optional "glow" animation */
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      from {
+        filter: drop-shadow(0 0 8px #ff00ff);
+      }
+      to {
+        filter: drop-shadow(0 0 20px #00ffff);
+      }
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+      color: #eaeaea;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+    }
+    .button-row a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      padding: 12px 24px;
+      background-color: #ff0090;
+      color: #fff;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+    .button-row a:hover {
+      background-color: #ff4ab0;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello from SynaptiPi!</h1>
-  <p>More to come soon...</p>
+
+  <!-- Replace the "src" below with your actual logo file path in the repo -->
+  <img 
+    class="logo" 
+    src="https://raw.githubusercontent.com/SynaptiLabs/SynaptiPi/main/logo.png" 
+    alt="SynaptiPi Logo" 
+  />
+
+  <h1>Welcome to SynaptiPi</h1>
+  <h2>
+    The synergy engine bridging global ideas, solutions, and Pi-based collaboration.
+  </h2>
+
+  <p>
+    SynaptiPi is an innovative platform built on the Pi Network, designed 
+    to connect people, resources, and expertise from across the globe. 
+    By leveraging Pi-based transactions and collaborative features, 
+    we aim to foster a vibrant ecosystem where everyone can share knowledge, 
+    co-create solutions, and unlock new possibilities.
+  </p>
+
+  <div class="button-row">
+    <a href="https://github.com/SynaptiLabs/SynaptiPi" target="_blank">
+      Explore on GitHub
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 SynaptiLabs. All rights reserved.
+  </footer>
+
 </body>
 </html>
