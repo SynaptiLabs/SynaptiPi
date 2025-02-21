@@ -56,7 +56,7 @@ If you want to connect, discuss ideas, or partner with us,
 you can find me on:
 - **GitHub**: [SynaptiLabs](https://github.com/SynaptiLabs)
 - **Pi Network**: SynaptiPi App
-- (f.3ttal@gmail.com)
+- **Email**: f.3ttal@gmail.com
 
 ---
 
